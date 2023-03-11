@@ -2,7 +2,7 @@ const input = document.querySelector('input')
 const btn = document.querySelector('button')
 const card = document.querySelector('.card')
 
-user('aayush-004v')
+user('santoshpatel4157')
 async function user (username) {
     const resp = fetch(`https://api.github.com/users/${username}`)
     const respData = (await resp).json()
